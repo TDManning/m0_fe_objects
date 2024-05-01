@@ -67,14 +67,14 @@ Object.values(email);
 // Check out the following example of an array of Instagram posts:
 
 
-//var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 
 // An Array of Objects is probably more realistic. Objects are a data type that's great
 // for storing more complex data. Below, we can store multiple key-value pairs
 // that relate to each individual Instagram post:
 
-/*
+
 posts = [
   {
     imageSrc: "./images/beach.png",
@@ -94,7 +94,7 @@ posts = [
 
 console.log(posts);
 console.log(posts[0]);
-/*
+
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
 // Objects. Each of those Objects has 4 key-value pairs. This may LOOK 
@@ -105,3 +105,23 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+email = [
+  {
+  contacts: 1000,
+  sentMessages: 8000,
+  draftMessages: 8,
+  archived: 10000,
+  flagged: 23
+  }, 
+  {
+  contacts: 10,
+  sentMessages: 8,
+  draftMessages: 80,
+  archived: 15,
+  flagged: 2
+  }
+];
+
+console.log(email);
+console.log(email[0]);
